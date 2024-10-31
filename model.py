@@ -56,7 +56,7 @@ class Efficient_Encoder(nn.Module):
         return feature
 
 
-class EDPNet(nn.Module):
+class SST_DPN(nn.Module):
 
     def __init__(
         self,
@@ -107,7 +107,7 @@ class EDPNet(nn.Module):
 
 if __name__ == "__main__":
     # a simple test
-    model = EDPNet(chans=22, samples=1000, num_classes=4)
+    model = SST_DPN(chans=22, samples=1000, num_classes=4)
     inp = torch.rand(1, 22, 1000)
     out = model(inp)
     print(out.shape)
