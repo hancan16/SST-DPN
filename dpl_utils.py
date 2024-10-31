@@ -21,3 +21,13 @@ def huber_loss(input, target, sigma=1):
     loss = torch.where(cond, 0.5 * diff**2 / beta, diff - 0.5 * beta)
 
     return torch.sum(loss, dim=1)
+
+class NormIncreaseLoss(nn.Module):
+    def __init__(self):
+        super(NormIncreaseLoss, self).__init__()
+
+    def forward(self, mat):
+
+        norms = torch.norm(mat, p=2, dim=1)
+        loss = -norms
+        return loss.mean()
