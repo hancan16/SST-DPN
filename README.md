@@ -1,4 +1,4 @@
-# EDPNet
+# SST-DPN
 This is the official repository to the paper "[A Spatial-Spectral and Temporal Dual Prototype Network for Motor Imagery Brain-Computer Interface](https://arxiv.org/pdf/2407.03177)".
 
 ## Abstract
