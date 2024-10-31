@@ -129,7 +129,7 @@ class VarPool1D(nn.Module):
 
 
 class SSA(nn.Module):
-
+    # Spatial-Spectral Attention
     def __init__(self, T, num_channels, epsilon=1e-5, mode="var", after_relu=False):
         super().__init__()
 
