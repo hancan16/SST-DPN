@@ -1,6 +1,6 @@
 # SST-DPN
 
-This is the official repository to the paper "[A Spatial-Spectral and Temporal Dual Prototype Network for Motor Imagery Brain-Computer Interface](https://arxiv.org/pdf/2407.03177)".
+This is the official repository to the paper "[A Spatial-Spectral and Temporal Dual Prototype Network for Motor Imagery Brain-Computer Interface](https://doi.org/10.1016/j.knosys.2025.113315)".
 
 ## Abstract
 
@@ -22,7 +22,10 @@ This is the official repository to the paper "[A Spatial-Spectral and Temporal D
 
 All data will be downloaded automatically except for the BCI3-4A dataset. Download the BCI3-4A dataset and put all files in the directory defined in load_data.py.
 
+## Training
+python train.py
 
+*Since my original project was highly integrated, this training code has been simplified with the help of ChatGPT. I have tested it and confirmed that it can run directly, but I cannot guarantee its complete correctness.*
 ## Rusults and Visualization
 
 In the following datasets we have used the official criteria for dividing the training and test sets:
@@ -32,6 +35,8 @@ In the following datasets we have used the official criteria for dividing the tr
 - [BCI3-4A](https://bbci.de/competition/iii/desc_IVa.html) -acc 82.03%
 
 ![image](https://github.com/hancan16/EDPNet/blob/main/figs/tsne_DPL.png)
+
+
 
 ## Acknowledgments
 
