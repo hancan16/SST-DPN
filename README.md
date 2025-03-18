@@ -36,7 +36,18 @@ In the following datasets we have used the official criteria for dividing the tr
 
 ![image](https://github.com/hancan16/EDPNet/blob/main/figs/tsne_DPL.png)
 
-
+## Citation
+If you find this repository useful, please cite our work
+```
+@article{han2025spatial,
+  title={A spatial-spectral and temporal dual prototype network for motor imagery brain-computer interface},
+  author={Han, Can and Liu, Chen and Wang, Jun and Wang, Yaqi and Cai, Crystal and Qian, Dahong},
+  journal={Knowledge-Based Systems},
+  pages={113315},
+  year={2025},
+  publisher={Elsevier}
+}
+```
 
 ## Acknowledgments
 
